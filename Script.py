@@ -2,20 +2,14 @@ class script(object):
     START_TXT = """𝙷𝙴𝙻𝙾 {},
 𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍"""
     HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+𝚆𝙷𝙰𝚃 𝙷𝙴𝙻𝙿 𝙳𝙾 𝚈𝙾𝚄 𝙽𝙴𝙴𝙳 𝙵𝚁𝙾𝙼 𝙼𝙴?"""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
-    SOURCE_TXT = """<b>NOTE:</b>
-- Eva Maria is a open source project. 
-- Source - https://github.com/EvamariaTG/EvaMaria  
-
-<b>DEVS:</b>
-- <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/TonyStarkTG>𝚃𝙾𝙽𝚈 𝚂𝚃𝙰𝚁𝙺</a>
+✯ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻: <a href=https://t.me/+sehUy4giYUw4NDc9>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
+✯ 𝙶𝚁𝙾𝚄𝙿: <a href=https://t.me/+I5x9eVyvlaI1Nzhl>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
+✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙸 𝙰𝙼 𝙼𝙰𝙻𝙰𝚈𝙰𝙻𝚈
+✯ 𝙳𝙴𝚃𝙰𝙸𝙻𝚂: 𝙱𝙰𝙻𝙰𝚁𝙰𝙼𝙰"""
+    SOURCE_TXT = """𝙻𝙴𝚃 𝙼𝙴 𝙶𝙸𝚅𝙴 𝚈𝙾𝚄 𝙰 𝙺𝙸𝚂𝚂 😘"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
@@ -102,6 +96,6 @@ Total Members = <code>{}</code>
 Added By - {}
 """
     LOG_TEXT_P = """#NewUser
-ID - <code>{}</code>
-Name - {}
+☞ ID - <code>{}</code>
+☞ Name - {}
 """
