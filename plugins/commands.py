@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
+                InlineKeyboardButton('🎗 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url='https://t.me/+sehUy4giYUw4NDc9')
             ],
             [
-                InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('🎗 𝙶𝚁𝙾𝚄𝙿', url='https://t.me/+I5x9eVyvlaI1Nzhl'),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -45,9 +45,11 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
+            InlineKeyboardButton('ℹ️ Help', callback_data='help')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('🎗 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url='https://t.me/+sehUy4giYUw4NDc9'),
+            InlineKeyboardButton('🎗 𝙶𝚁𝙾𝚄𝙿', url='https://t.me/+I5x9eVyvlaI1Nzhl')
+            ],[
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -67,7 +69,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "🎗 𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🎗", url=invite_link.invite_link
                 )
             ]
         ]
@@ -75,10 +77,10 @@ async def start(client, message):
         if message.command[1] != "subscribe":
             kk, file_id = message.command[1].split("_", 1)
             pre = 'checksubp' if kk == 'filep' else 'checksub' 
-            btn.append([InlineKeyboardButton(" 🔄 Try Again", callback_data=f"{pre}#{file_id}")])
+            btn.append([InlineKeyboardButton("🔄 𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽 🔄", callback_data=f"{pre}#{file_id}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**Please Join My Updates Channel to use this Bot!\n\nതാഴെ കാണുന്ന 🎗 𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🎗 എന്ന ബട്ടണിൽ ക്ലിക്ക് ചെയ്തു ചാനലിൽ ജോയിൻ ചെയ്യുക....\n\nശേഷം ഈ ചാറ്റിലേക്ക് വന്നിട്ട് 🔄 𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽 🔄 എന്ന് ക്ലിക്ക് ചെയ്യുക**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
@@ -88,9 +90,11 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
+            InlineKeyboardButton('ℹ️ Help', callback_data='help')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('🎗 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url='https://t.me/+sehUy4giYUw4NDc9'),
+            InlineKeyboardButton('🎗 𝙶𝚁𝙾𝚄𝙿', url='https://t.me/+I5x9eVyvlaI1Nzhl')
+            ],[
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
