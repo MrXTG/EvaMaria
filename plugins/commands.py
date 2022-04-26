@@ -24,9 +24,6 @@ async def start(client, message):
         buttons = [
             [
                 InlineKeyboardButton('🎗 𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url='https://t.me/+sehUy4giYUw4NDc9')
-            ],
-            [
-                InlineKeyboardButton('🎗 𝙶𝚁𝙾𝚄𝙿', url='https://t.me/+I5x9eVyvlaI1Nzhl'),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
