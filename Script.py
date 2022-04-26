@@ -6,16 +6,15 @@ class script(object):
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
 ✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/TonyStarkTG>𝚃𝙾𝙽𝚈 𝚂𝚃𝙰𝚁𝙺</a>
 ✯ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻: <a href=https://t.me/+sehUy4giYUw4NDc9>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
-✯ 𝙶𝚁𝙾𝚄𝙿: <a href=https://t.me/+I5x9eVyvlaI1Nzhl>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙸 𝙰𝙼 𝙼𝙰𝙻𝙰𝚈𝙰𝙻𝚈
-✯ 𝙳𝙴𝚃𝙰𝙸𝙻𝚂: 𝙱𝙰𝙻𝙰𝚁𝙰𝙼𝙰"""
+✯ 𝙳𝙴𝚃𝙰𝙸𝙻𝚂: 𝙸𝙱𝙰𝙻𝙰𝚁𝙰𝙼𝙰"""
     SOURCE_TXT = """𝙻𝙴𝚃 𝙼𝙴 𝙶𝙸𝚅𝙴 𝚈𝙾𝚄 𝙰 𝙺𝙸𝚂𝚂 😘"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. eva maria should have admin privillage.
+1. Tony Stark should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -34,7 +33,7 @@ class script(object):
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
+<code>[Button Text](buttonurl:https://t.me/TonyStarkTG)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
