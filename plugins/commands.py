@@ -27,7 +27,7 @@ async def start(client, message):
             ],
             [
                 InlineKeyboardButton('🎗 𝙶𝚁𝙾𝚄𝙿', url='https://t.me/+I5x9eVyvlaI1Nzhl'),
-            ]
+           
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
